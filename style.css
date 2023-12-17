@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background: #111418;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow-y: hidden;
+  position: relative;
+  text-align: center;
+}
+
+canvas {
+  position: absolute;
+  z-index: 1;
+}
+
+main {
+  z-index: 2;
+}
+
+.lang {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.lang > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.for-sale {
+  color: #252b33;
+  background: #ffc107;
+  font-size: 3.5rem;
+  font-weight: 700;
+  padding: 5px 25px;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.domain {
+  font-size: 5.25rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1.25rem;
+  margin: 20px 5px;
+  max-width: 650px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 15px;
+}
+
+button {
+  background: #ffc107;
+  border: transparent;
+  border-radius: 5px;
+  padding: 10px 25px;
+  color: #212529;
+  cursor: pointer;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  min-width: 160px;
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+}
+
+@media only screen and (max-width: 640px) {
+  /* For mobile phones: */
+  .domain {
+    font-size: 3rem;
+  }
+  .for-sale {
+    font-size: 2rem;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .for-sale {
+    font-size: 1rem;
+  }
+}
