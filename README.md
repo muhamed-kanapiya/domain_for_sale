@@ -17,6 +17,8 @@ Or just save it as .zip file on your device, upload it to the root of your domai
 
 ![Demo on Netlify](https://github.com/muhamed-kanapiya/domain_for_sale/blob/main/screenshot.jpg?raw=true)
 
+**[Demo on Netlify](https://domainforsaletemplate.netlify.app/)**
+
 ## Features
 
 - Responsive design: The template is optimized for various screen sizes, ensuring a consistent user experience across different devices.
@@ -37,4 +39,4 @@ You can customize that template if you have basic knowledge in HTML, JS, and CSS
 
 ## Author
 
-Muhamed-Kanapiya
+[Muhamed-Kanapiya](https://github.com/muhamed-kanapiya)
