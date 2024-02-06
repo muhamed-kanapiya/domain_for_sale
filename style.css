@@ -45,6 +45,7 @@ main {
   text-transform: uppercase;
   max-width: 650px;
   word-wrap: break-word;
+  line-height: 1;
 }
 
 p {
@@ -80,6 +81,10 @@ button {
   /* For mobile phones: */
   .domain {
     font-size: 3rem;
+    max-width: auto;
+    word-wrap: break-word;
+    margin-left: auto;
+    text-align: center;
   }
   .for-sale {
     font-size: 2rem;
@@ -93,6 +98,14 @@ button {
 }
 
 @media only screen and (max-width: 420px) {
+  .domain {
+    font-size: 2rem;
+    max-width: auto;
+    word-wrap: break-word;
+    text-align: center;
+    margin-left: auto;
+  }
+
   .for-sale {
     font-size: 1rem;
   }
