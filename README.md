@@ -2,6 +2,14 @@
 
 This is a responsive HTML template designed for showcasing domain names for sale. It provides a clean and modern layout that adapts to different screen sizes, making it suitable for both desktop and mobile devices.
 
+## Table of contents
+
+- [Installation](#installation)
+- [Screenshot](#screenshot)
+- [Features](#features)
+- [Customization](#customization)
+- [Author](#author)
+
 ## Installation
 
 To use this template, simply clone the repository to your local machine:
