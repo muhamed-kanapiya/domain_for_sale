@@ -6,31 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="domain.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="/img/domain.svg" type="image/x-icon">
+    <script src="const.js" defer></script>
 </head>
 
 <body>
-    <div class="lang"><img src="translate.svg" alt="" width="24px"> <a href="ru.html">РУС</a></div>
     <main>
-        <div class="for-sale">For Sale !</div>
+        <div class="for-sale" id="forSaleEn"></div>
         <h1 class="domain"></h1>
-        <p>This domain name available for instantly purchase. You can send your offer by links below.</p>
+        <p id="domainDescriptionEn"></p>
         <div class="buttons">
-            <button
-                onclick="window.location.href='https://api.whatsapp.com/send?phone=77751067710&text=I%20want%20to%20buy%20'+ domainName +'%20domain%0A'"><img
-                    src="wp.svg" width="24px" alt="" />WhatsApp</button>
+            <button onclick="'phoneNumber'"><img src="/img/wp.svg" width="24px" alt="" />WhatsApp</button>
             <button onclick="window.location.href='https://www.instagram.com/lvv.vlad/';"><img width="24px"
-                    src="insta.svg" alt="" />Instagram</button>
+                    src="/img/insta.svg" alt="" />Instagram</button>
         </div>
     </main>
     <script>
-        const domainName = window.location.hostname;
-        let h1 = document.querySelector(".domain");
-        h1.textContent += domainName;
-        console.log(h1);
-        const htmlTitle = `<title>${domainName} is for sale!</title>`;
-        document.head.innerHTML += htmlTitle;
+
     </script>
+
 </body>
 
 </html>

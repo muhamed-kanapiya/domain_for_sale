@@ -27,22 +27,6 @@ main {
   z-index: 2;
 }
 
-.lang {
-  position: absolute;
-  right: 20px;
-  top: 10px;
-  font-weight: 700;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 10px;
-}
-
-.lang > a {
-  text-decoration: none;
-  color: inherit;
-}
-
 .for-sale {
   color: #252b33;
   background: #ffc107;
