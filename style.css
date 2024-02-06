@@ -43,6 +43,8 @@ main {
   font-size: 5.25rem;
   text-align: center;
   text-transform: uppercase;
+  max-width: 650px;
+  word-wrap: break-word;
 }
 
 p {
