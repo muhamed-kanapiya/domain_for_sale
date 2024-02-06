@@ -2,14 +2,9 @@ const domainName = window.location.hostname;
 // const domainName = "DOMAINFORSALETEMPLATE.NETLIFY.APP";
 const h1 = document.querySelector(".domain");
 const htmlTitle = `<title>${domainName} is for sale!</title>`;
-const forSale = "For Sale !";
+const forSale = "For Sale !"; // Main heading
 const domainDescription =
-  "This domain name available for instantly purchase. You can send your offer by links below.";
-
-const instaUrl = "https://www.instagram.com/lvv.vlad/";
-const phoneNumber = "+77028600601";
-const messageText = encodeURIComponent("Я хочу купить домен " + domainName);
-const whatsappLink = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${messageText}`;
+  "This domain name available for instantly purchase. You can send your offer by links below."; // Description parapgraph under heading
 
 document.getElementById("forSale").textContent = forSale;
 document.getElementById("domainDescription").textContent = domainDescription;
@@ -18,10 +13,10 @@ h1.textContent += domainName;
 document.head.innerHTML += htmlTitle;
 
 document.addEventListener("DOMContentLoaded", function () {
-  const phoneNumber = "+77028600601"; // Replace with your phone number
+  const phoneNumber = "+77077770707"; // Replace with your phone number
   const messageText = encodeURIComponent(
     "I want to buy the " + domainName + " domain."
-  ); // Replace with your message text
+  ); // Replace with your message text, only between ""
 
   const whatsappLink = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${messageText}`;
 
