@@ -1,4 +1,5 @@
 const domainName = window.location.hostname;
+// const domainName = "DOMAINFORSALETEMPLATE.NETLIFY.APP";
 const h1 = document.querySelector(".domain");
 const htmlTitle = `<title>${domainName} is for sale!</title>`;
 const forSale = "For Sale !";
